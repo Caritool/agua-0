@@ -1,17 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-  <!-- ↓ TODA ESTA ES INFORMACIÓN DEL <head> QUE NO VEMOS EN LA PÁGINA ↓ -->
   <head>
-    <!-- ↓ Lugar para el favicon ↓ -->
-    <link rel="icon" href="elementos\perrito.png" />
-    <!-- ↓ Lugar para el nombre de la página ↓ -->
-    <title>Perrito</title>
-    <!-- ↓ Lugar para enlazar nuestra página de estilos ↓ -->
-    <link rel="stylesheet" href="/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calíope — Reseñas Literarias</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
-  <!-- ↓ El <body> ES LO QUE VEMOS EN LA PÁGINA ↓ -->
   <body>
-    <h1><a href="https://www.youtube.com/channel/UCFKE7WVJfvaHW5q283SxchA" target="_blank">Perrito</a></h1>
+    <!-- SECCIÓN 1 — HERO -->
+    <section id="hero">
+      <div class="top-bar">
+        <div class="nav-logo">Calíope</div>
+        <p class="top-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="hero-tag">Reseñas literarias</span>
+          <h1>Leer es vivir<br /><em>mil</em> vidas.</h1>
+        </div>
+        <div class="hero-img-wrap">
+          <img class="hero-img" src="https://upload.wikimedia.org/wikipedia/commons/d/df/Frank_Millet_-_Reading_the_Story_of_Oenone%2C_c_1882.jpg" alt="Reading the Story of Oenone">
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 2 — RESEÑAS -->
+    <section id="reviews">
+      <h2>Últimas <em>reseñas</em></h2>
+      <div class="book-grid">
+        <div class="book-card">
+          <img src="https://images.cdn1.buscalibre.com/fit-in/360x360/85/16/8516d825f44f192528d673955df2bc99.jpg" alt="Cumbres Borrascosas">
+          <div class="book-info">
+            <span class="book-genre">Clásico · Gótico</span>
+            <span class="book-title">Cumbres Borrascosas</span>
+            <span class="book-author">Emily Brontë</span>
+          </div>
+        </div>
+
+        <div class="book-card">
+          <img src="https://images.cdn2.buscalibre.com/fit-in/360x360/06/58/0658a9f4c14e34ffdd0d9715aaeac93c.jpg" alt="El extranjero">
+          <div class="book-info">
+            <span class="book-genre">Filosofía · Novela</span>
+            <span class="book-title">El extranjero</span>
+            <span class="book-author">Albert Camus</span>
+          </div>
+        </div>
+
+        <div class="book-card">
+          <img src="https://images.cdn1.buscalibre.com/fit-in/360x360/9a/39/9a39f5be33c5cd4900064be6715efcaf.jpg" alt="Kafka en la orilla">
+          <div class="book-info">
+            <span class="book-genre">Surrealismo · Ficción</span>
+            <span class="book-title">Kafka en la orilla</span>
+            <span class="book-author">Haruki Murakami</span>
+          </div>
+        </div>
+
+        <div class="book-card">
+          <img src="https://images.cdn3.buscalibre.com/fit-in/360x360/cc/23/cc23cb6ef0b43393b6e62e43667edb3e.jpg" alt="La Divina Comedia">
+          <div class="book-info">
+            <span class="book-genre">Poesía épica · Clásico</span>
+            <span class="book-title">La Divina Comedia</span>
+            <span class="book-author">Dante Alighieri</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 3 — GRACIAS -->
+    <section id="thanks">
+      <h2>Gracias por <em>leer.</em></h2>
+      <p>Si quieres hacer parte de una conversación literaria, puedes seguirme en Instagram.</p>
+      <a href="https://www.instagram.com/notcaroolp" target="_blank" rel="noopener noreferrer">@notcaroolp</a>
+      <span class="footer">Calíope — © 2026</span>
+    </section>
   </body>
 </html>
